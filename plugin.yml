@@ -1,0 +1,19 @@
+name: TalkAs
+main: src.TalkAs
+version: 1.2.6
+commands: 
+   talk:
+      description: Talk as another player.
+      usage: /talk <player> <message>
+      permission: talk.talk
+      permission-message: You don't have the permission talk.talk
+   login:
+      description: Makes it appear that a player has logged in.
+      usage: /login <player> 
+      permission: talk.login
+      permission-message: You don't have the permission talk.login
+   logout:
+      description: Makes it appear that a player has logged out.
+      usage: /logout <player> 
+      permission: talk.logout
+      permission-message: You don't have the permission talk.logout
